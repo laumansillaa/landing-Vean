@@ -1,0 +1,51 @@
+.contHome{
+    height: 85vh;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding: 0 0 3rem 7rem;
+}
+
+.contTxtHome{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+}
+
+.contDescriptionHome{
+    margin-top: 1rem;
+}
+
+.contBtn{
+    margin: 3rem 0 3rem 0;
+}
+
+.btnHome{
+    background-color: #3F0071;
+    border: 0;
+    padding: .6rem 1.5rem .6rem 1.5rem;
+    border-radius: 20px;
+}
+
+.btnHome:hover{
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+@media (max-width: 480px){
+
+    .contHome{
+        height: 90vh;
+    }
+
+    .contHome{
+        padding: 0 0 3rem 1.5rem;
+    }
+
+    .contTxtHome{
+        width: 90%;
+    }
+}
