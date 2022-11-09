@@ -38,6 +38,7 @@ const Navv = () => {
                 </div>
 
                 <div className={style.contSocial}>
+                    {/* <h6></h6></h6> */}
                     <a href='https://twitter.com/' target='_blank'><FaTelegram className={style.icons}/></a>
                     <a href='https://twitter.com/' target='_blank'>
                       <AiFillTwitterCircle className={style.icons}/></a>

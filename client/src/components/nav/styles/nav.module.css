@@ -1,5 +1,6 @@
 .contNav{
     width: 100%;
+    font-family: Space Mono;
     /* border: 1px solid yellow; */
     /* background-color: #161b22; */
     display: flex;
@@ -31,7 +32,7 @@
 
 .contItem{
     width: 60%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -40,7 +41,7 @@
 
 .contSocial{
     width: 20%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0 3rem 0 0;
     display: flex;
     justify-content: end;
@@ -53,6 +54,12 @@
 .link{
     text-decoration: none;
     color: #fff;
+}
+
+.link:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    /* transition: 2s ease-in-out */
 }
 
 .icons{
@@ -89,13 +96,14 @@
         position: absolute;
         top: 96px;
         bottom: 0;
-        background: #3672b5;
+        /* background: #3672b5; */
+        background-image: url('../../../assets/images/fondo.png');
         width: 100%;
         left: 0;
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: flex-start; */
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         clip-path: polygon(100% 0, 100% 100%, 100% 100%, 100% 0);
         transition: clip-path 1s ease-in-out
     }
@@ -114,29 +122,18 @@
     .contSocial {
         width: 30%;
         height: 60%;
-        padding: 0;
+        padding: 0 1rem 1rem 0;
         justify-content: space-around;
+        align-items: flex-end;
     }
 
     .link{
         width: 80%;
-
+        font-size: 1.5rem;
     }
 
     .navInput:checked + .headerItems{
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
     }
 
-    .headerItems{
-
-    }
-
-    .contIcons{
-        margin-top: 1rem;
-        justify-content: center;
-    }
-
-    .contSocial{
-
-    }
 }
