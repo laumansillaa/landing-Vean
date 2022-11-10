@@ -4,17 +4,19 @@
     align-items: center;
     color: #fff;
     font-family: Space Mono;
+    margin-bottom: 15rem;
 }
 
 .contTitle{
-    width: 60%;
+    /* padding-top: rem; */
+    width: 80%;
     border-bottom: 2px solid #FB2576;
     color: #DDB9A5
 }
 
 .contDescription{
     width: 70%;
-    margin: 2rem 0 2rem 0;
+    margin: 4rem 0 2rem 0;
     text-align: start;
 }
 

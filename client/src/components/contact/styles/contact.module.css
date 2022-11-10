@@ -9,13 +9,13 @@
 }
 
 .contTitle{
-    width: 60%;
+    width: 80%;
     border-bottom: 2px solid #FB2576;
     color: #DDB9A5
 }
 
 .contInfo{
-    margin: 3rem 0 3rem 0;
+    margin: 7rem 0 4rem 0;
     display: flex;
     justify-content: space-around;
 

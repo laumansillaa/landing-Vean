@@ -1,8 +1,6 @@
 .contNav{
     width: 100%;
     font-family: Space Mono;
-    /* border: 1px solid yellow; */
-    /* background-color: #161b22; */
     display: flex;
     align-items: center;
     height: 15vh;
@@ -10,7 +8,7 @@
 }
 
 .headerIcon{
-    width: 30%;
+    width: 27%;
 }
 
 .headerItems{
@@ -32,7 +30,6 @@
 
 .contItem{
     width: 60%;
-    /* border: 1px solid pink; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -41,14 +38,13 @@
 
 .contSocial{
     width: 20%;
-    /* border: 1px solid green; */
     padding: 0 3rem 0 0;
     display: flex;
     justify-content: end;
 }
 
 .logo{
-    height: 3rem;
+    height: 2rem;
 }
 
 .link{
@@ -63,7 +59,7 @@
 }
 
 .icons{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: 1rem;
     color: #fff;
 }

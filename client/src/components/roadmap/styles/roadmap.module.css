@@ -1,5 +1,6 @@
 .contRoadmap{
     margin-top: 3rem;
+    /* margin-bottom: 3rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +10,7 @@
 }
 
 .contTitle{
-    width: 60%;
+    width: 80%;
     border-bottom: 2px solid #FB2576;
     color: #DDB9A5
 }
