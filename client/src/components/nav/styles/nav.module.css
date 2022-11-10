@@ -1,4 +1,5 @@
 .contNav{
+    /* position: fixed; */
     width: 100%;
     font-family: Space Mono;
     display: flex;
