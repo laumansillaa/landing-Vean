@@ -52,6 +52,15 @@
     box-shadow: 1px 1px 2px 1px #000;
 }
 
+.aux{
+    text-decoration: none;
+    color: #fff;
+  }
+
+.aux:hover{
+    color: #fff;
+}
+
 @media (max-width: 480px){
     .contInfo{
         flex-direction: column;

@@ -1,0 +1,17 @@
+.contRoad{
+    margin-top: 3rem;
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.contRight{
+    border-left: 3px solid #FB2576;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.contCardRoad{
+    text-align: start;
+    width: 100%;
+    margin-bottom: 3rem;
+}

@@ -15,7 +15,12 @@ const Home = () => {
                 </div>
                 <div className={style.contBtn}>
                     <button className={style.btnHome}>
-                        Contactanos
+                        <a href='mailto:veanbooks@gmail.com'
+                            target="_blank"
+                            className={style.aux}
+                        >
+                            Contactanos
+                        </a>
                     </button>
                 </div>
             </div>

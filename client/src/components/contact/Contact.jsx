@@ -15,13 +15,22 @@ const Contact = () => {
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatem dignissimos facilis modi, possimus doloremque quaerat eos, quod cupiditate adipisci consequatur cumque atque? Vero eum, officia assumenda provident illo debitis?</h5>
                     <div className={style.contBtns}>
                         <button className={style.btnHome}>
-                            Telegram
+                            <a href='https://telegram.me/user' target='_blank' className={style.aux}>
+                                Telegram
+                            </a>
                         </button>
                         <button className={style.btnHome}>
-                        Contactanos
+                            <a href='mailto:veanbooks@gmail.com'
+                                target="_blank"
+                                className={style.aux}
+                            >
+                                Contactanos
+                            </a>
                         </button>
                         <button className={style.btnHome}>
-                        Twitter
+                            <a href='https://twitter.com/veanbooks' target='_blank' className={style.aux}>
+                            Twitter
+                            </a>
                         </button>
                     </div>
                 </div>

@@ -9,7 +9,10 @@ const Footer = () => {
         <div className={style.contFooter}>
             <img src={vean} alt='vean-logo' className={style.logo}/>
             <div className={style.contSocial}>
-                <AiFillTwitterCircle className={style.icon}/>
+                <a href='https://twitter.com/veanbooks' target='_blank'>
+                    <AiFillTwitterCircle className={style.icon}/>
+                </a>
+                <a href='https://telegram.me/user' target='_blank'></a>
                 <FaTelegram className={style.icon}/>
             </div>
         </div>

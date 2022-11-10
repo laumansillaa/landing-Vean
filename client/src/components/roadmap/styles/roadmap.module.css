@@ -5,6 +5,7 @@
     align-items: center;
     color: #fff;
     font-family: Space Mono;
+
 }
 
 .contTitle{
@@ -15,4 +16,64 @@
 
 .contRoad{
     margin: 2rem 0 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80%;
 }
+
+.contLeft, .contRight{
+    width: 50%;
+}
+
+.contRight{
+    padding-left: 3rem;
+    border-left: 3px solid #FB2576;
+
+}
+
+.contLeft{
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.contCardRoad{
+    width: 70%;
+    margin-top: 5rem;
+    text-align: end;
+}
+
+.contCardRoadR{
+    width: 70%;
+    margin-bottom: 9rem;
+    text-align: start;
+
+}
+
+/* @media (max-width: 480px){
+    .contRoad{
+        width: 90%;
+        justify-content: flex-start;
+    }
+
+    .contLeft{
+        display: none;
+        position: relative;
+        z-index: 3;
+        width: 100%;
+    }
+
+    .contRight{
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .contCardRoadR{
+        width: 100%;
+        margin-bottom: 22rem;
+    }
+} */
