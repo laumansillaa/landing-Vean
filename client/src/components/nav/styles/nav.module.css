@@ -55,6 +55,7 @@
 .link:hover{
     color: #fff;
     border-bottom: 1px solid #fff;
+    cursor: pointer;
     /* transition: 2s ease-in-out */
 }
 
@@ -64,7 +65,7 @@
     color: #fff;
 }
 
-@media (max-width: 480px){
+@media (max-width: 950px){
     .contNav{
         display: flex;
         justify-content: space-between;
@@ -133,3 +134,7 @@
     }
 
 }
+
+/* @media screen and (min-width:480px) and (max-width:950px){
+
+} */

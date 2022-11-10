@@ -26,3 +26,12 @@
         margin-bottom: 1.5rem;
     }
 }
+
+@media screen and (min-width:480px) and (max-width:649px){
+
+    .contCard{
+        margin-bottom: 2rem;
+    }
+
+
+}

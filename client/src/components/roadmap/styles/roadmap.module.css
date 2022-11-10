@@ -16,7 +16,7 @@
 }
 
 .contRoad{
-    margin: 2rem 0 0 2rem;
+    margin: 2rem 0 2rem 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -29,7 +29,7 @@
 
 .contRight{
     padding-left: 3rem;
-    border-left: 3px solid #FB2576;
+    border-left: 5px solid #FB2576;
 
 }
 
@@ -78,3 +78,22 @@
         margin-bottom: 22rem;
     }
 } */
+
+@media screen and (min-width:481px) and (max-width:950px){
+    .contRoad{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .contRight{
+        padding-left: .7rem;
+    }
+
+    .contLeft{
+        padding-right: .7rem;
+    }
+
+    .contCardRoad, .contCardRoadR{
+        width: 90%;
+    }
+}

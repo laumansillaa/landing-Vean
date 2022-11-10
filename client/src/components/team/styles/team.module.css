@@ -21,8 +21,32 @@
     /* border: 1px solid red; */
 }
 
-@media (max-width: 480px){
+/* @media (max-width: 480px){
     .contCard{
         flex-direction: column;
     }
+} */
+
+@media screen and (min-width:650px) and (max-width:950px){
+
+    .contCard{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width:390px) and (max-width:649px){
+
+    .contCard{
+        width: 90%;
+        /* flex-direction: column; */
+    
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 0px 2px; 
+    
+
+    }
+
 }
