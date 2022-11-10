@@ -3,7 +3,7 @@ import style from './styles/project.module.css'
 const Project = () => {
 
     return (
-        <div className={style.contProject}>
+        <div className={style.contProject} id='project'>
             <div className={style.contTitle}>
                 <h1>EL PROYECTO</h1>
             </div>

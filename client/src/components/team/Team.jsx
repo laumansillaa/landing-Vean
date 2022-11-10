@@ -27,7 +27,7 @@ const Team = () => {
         name: 'LAU',
         image: lauImg,
         position: 'Co-founder',
-        username: '@laumansillaa'
+        username: '@Laumansillaa'
     }
 
     const santi = {
@@ -39,7 +39,7 @@ const Team = () => {
 
 
     return (
-        <div className={style.contTeam}>
+        <div className={style.contTeam} id='team'>
             <div className={style.contTitle}>
                 <h1>EQUIPO</h1>
             </div>

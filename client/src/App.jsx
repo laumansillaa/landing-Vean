@@ -1,4 +1,6 @@
 import './App.css'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
 import Navv from './components/nav/Nav'
 import Project from './components/project/Project'
@@ -14,6 +16,8 @@ function App() {
       <Project/>
       <Roadmap/>
       <Team/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

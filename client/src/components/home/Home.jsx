@@ -3,7 +3,7 @@ import style from './styles/home.module.css'
 const Home = () => {
 
     return (
-        <div className={style.contHome}>
+        <div className={style.contHome} id='home'>
             <div className={style.contTxtHome}>
                 <h1>VEAN es</h1>
                 <h4>Lorem ipsum dolor sit amet, consectetur adipisicing</h4>

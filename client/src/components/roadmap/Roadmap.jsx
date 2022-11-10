@@ -3,7 +3,7 @@ import style from './styles/roadmap.module.css'
 const Roadmap = () => {
 
     return (
-        <div className={style.contRoadmap}>
+        <div className={style.contRoadmap} id='roadmap'>
             <div className={style.contTitle}>
                 <h1>ROADMAP</h1>
             </div>

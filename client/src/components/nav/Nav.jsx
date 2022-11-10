@@ -2,7 +2,7 @@ import style from './styles/nav.module.css'
 // import {Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Vean from '../../assets/images/VeanBlank.svg'
 import menu from '../../assets/svg/menu.svg'
-import {Link} from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import {FaTelegram} from 'react-icons/fa'
 
@@ -30,11 +30,11 @@ const Navv = () => {
             <input type='checkbox' id='menu' className={style.navInput}></input>
             <div className={style.headerItems}>
                 <div className={style.contItem}>
-                    <Link to='/about' className={style.link} onClick={clickChecked}>Inicio</Link>
-                    <Link to='/about' className={style.link} onClick={clickChecked}>Proyecto</Link>
-                    <Link to='/about' className={style.link} onClick={clickChecked}>Roadmap</Link>
-                    <Link to='/about' className={style.link} onClick={clickChecked}>Equipo</Link>
-                    <Link to='/about' className={style.link} onClick={clickChecked}>Contacto</Link>
+                    <Link to='home' spy={true} smooth={true} offset={-100} duration={300} className={style.link} onClick={clickChecked}>Inicio</Link>
+                    <Link to='project' spy={true} smooth={true} offset={-100} duration={300} className={style.link} onClick={clickChecked}>Proyecto</Link>
+                    <Link to='roadmap' spy={true} smooth={true} offset={-100} duration={300} className={style.link} onClick={clickChecked}>Roadmap</Link>
+                    <Link to='team' spy={true} smooth={true} offset={-100} duration={300} className={style.link} onClick={clickChecked}>Equipo</Link>
+                    <Link to='contact' spy={true} smooth={true} offset={-100} duration={300} className={style.link} onClick={clickChecked}>Contacto</Link>
                 </div>
 
                 <div className={style.contSocial}>
