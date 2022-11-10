@@ -1,0 +1,28 @@
+.contCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contInfo{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contSocial{
+    display: flex;
+}
+
+.icon{
+    margin: 0 .5rem 0 0;
+}
+
+@media (max-width: 480px){
+    .contCard{
+        margin-bottom: 1.5rem;
+    }
+}
