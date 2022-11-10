@@ -2,7 +2,7 @@
 import ariImg from '../../assets/images/ari.jpg'
 import kariImg from '../../assets/images/kari.jpg'
 import lauImg from '../../assets/images/lau.jpg'
-import santiImg from '../../assets/images/santi.jpeg'
+import santiImg from '../../assets/images/santi.jpg'
 import Card from './Card'
 
 import style from './styles/team.module.css'
@@ -13,14 +13,14 @@ const Team = () => {
         name: 'ARI',
         image: ariImg,
         position: 'Co-founder',
-        username: '@adbmez'
+        username: '@Adbmez'
     }
 
     const kari = {
         name: 'KARI',
         image: kariImg,
         position: 'Co-founder',
-        username: '@soyKrypto'
+        username: '@SoyKrypto'
     }
 
     const lau = {
@@ -34,7 +34,7 @@ const Team = () => {
         name: 'SANTI',
         image: santiImg,
         position: 'Co-founder',
-        username: '@userdesanti'
+        username: '@Sansildev'
     }
 
 
