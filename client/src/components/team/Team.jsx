@@ -10,28 +10,30 @@ import style from './styles/team.module.css'
 const Team = () => {
 
     const ari = {
-        name: 'ARI',
+        name: 'Ariel Duce Bemez',
         image: ariImg,
         position: 'Co-founder',
+        rol: 'Communication scientist',
         username: '@Adbmez'
     }
 
-    const kari = {
-        name: 'KARI',
-        image: kariImg,
-        position: 'Co-founder',
-        username: '@SoyKrypto'
-    }
+    // const kari = {
+    //     name: 'KARI',
+    //     image: kariImg,
+    //     position: 'Co-founder',
+    //     username: '@SoyKrypto'
+    // }
 
     const lau = {
-        name: 'LAU',
+        name: 'Lautaro Mansilla',
         image: lauImg,
         position: 'Co-founder',
+        rol: 'Fullstak Developer',
         username: '@Laumansillaa'
     }
 
     const santi = {
-        name: 'SANTI',
+        name: 'Santiago Silva Dalla Rizza',
         image: santiImg,
         position: 'Co-founder',
         username: '@Sansildev'
@@ -45,7 +47,7 @@ const Team = () => {
             </div>
             <div className={style.contCard}>
                 <Card user={ari}/>
-                <Card user={kari}/>
+                {/* <Card user={kari}/> */}
                 <Card user={lau}/>
                 <Card user={santi}/>
             </div>

@@ -47,37 +47,42 @@ const Roadmap = () => {
 
                 <div className={style.contRoad}>
                     <div className={style.contLeft}>
-                        <div className={style.contCardRoad}>
-                            <h5>Q2</h5>
-                            <h2>TITLE 01</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, excepturi eligendi! Nam sequi delectus dolores eveniet nostrum nihil asperiores aliquid optio vitae? Nostrum nesciunt maxime iusto fugit? Officiis, repellendus maxime!</h6>
+                    <div className={style.contCardRoad}>
+                            <h5>Q4 - 2022</h5>
+                            <h2>BIENVENIDA</h2>
+                            <h6>Landing page informativa. Comunidad: Twitter + Telegram.
+                                Proyecto en FundIt. Whitepaper.
+                            </h6>
                         </div>
                         <div className={style.contCardRoad}>
-                            <h5>Q4</h5>
-                            <h2>TITLE 01</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, excepturi eligendi! Nam sequi delectus dolores eveniet nostrum nihil asperiores aliquid optio vitae? Nostrum nesciunt maxime iusto fugit? Officiis, repellendus maxime!</h6>
+                            <h5>Q2 - 2023</h5>
+                            <h2>EL CAMINO</h2>
+                            <h6>Primer marketplace. Pagos con criptomonedas y FIAT. Beta abierta de venta al público.</h6>
                         </div>
                         <div className={style.contCardRoad}>
-                            <h5>Q6</h5>
-                            <h2>TITLE 01</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, excepturi eligendi! Nam sequi delectus dolores eveniet nostrum nihil asperiores aliquid optio vitae? Nostrum nesciunt maxime iusto fugit? Officiis, repellendus maxime!</h6>
+                            <h5>Q4 - 2023</h5>
+                            <h2>EL FUTURO</h2>
+                            <h6>Modelo de franquiciado: librerias asociadas.
+                                Gobernanza descentralizada: primer token nativo.
+                                Nuevas funciones: alquileres, suscripciones y más.
+                            </h6>
                         </div>
                     </div>
                     <div className={style.contRight}>
                         <div className={style.contCardRoadR}>
-                            <h5>Q1</h5>
-                            <h2>TITLE 01</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, excepturi eligendi! Nam sequi delectus dolores eveniet nostrum nihil asperiores aliquid optio vitae? Nostrum nesciunt maxime iusto fugit? Officiis, repellendus maxime!</h6>
+                            <h5>Q1 - 2023</h5>
+                            <h2>PRUEBA DE CONCEPTO</h2>
+                            <h6>Invitamos a autores/as y sellos editoriales. 
+                                Validamos la prueba de valor. Desarrollamos los primeros formatos.
+                            </h6>
                         </div>
+
                         <div className={style.contCardRoadR}>
-                            <h5>Q3</h5>
-                            <h2>TITLE 01</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, excepturi eligendi! Nam sequi delectus dolores eveniet nostrum nihil asperiores aliquid optio vitae? Nostrum nesciunt maxime iusto fugit? Officiis, repellendus maxime!</h6>
-                        </div>
-                        <div className={style.contCardRoadR}>
-                            <h5>Q5</h5>
-                            <h2>TITLE 01</h2>
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, excepturi eligendi! Nam sequi delectus dolores eveniet nostrum nihil asperiores aliquid optio vitae? Nostrum nesciunt maxime iusto fugit? Officiis, repellendus maxime!</h6>
+                            <h5>Q3 - 2023</h5>
+                            <h2>LA EXPANSION</h2>
+                            <h6>Apertura de nuestros locales. Venta de libros como Tokens No Fungibles.
+                                Nuevos participantes: traductores e ilustradoras.
+                            </h6>
                         </div>
                     </div>
                 </div>

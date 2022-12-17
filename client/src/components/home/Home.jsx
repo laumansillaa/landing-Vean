@@ -6,11 +6,11 @@ const Home = () => {
         <div className={style.contHome} id='home'>
             <div className={style.contTxtHome}>
                 <h1>VEAN es</h1>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing</h4>
+                <h4>Bienvenidos al futuro de la industria editorial</h4>
 
                 <div className={style.contDescriptionHome}>
                     <h4>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio provident, aspernatur accusamus perspiciatis earum animi nihil aperiam consequuntur maxime esse obcaecati, debitis in enim vero, explicabo similique eum impedit hic.
+                        Comprá, vendé y publicá libros en todo el mundo
                     </h4>
                 </div>
                 <div className={style.contBtn}>

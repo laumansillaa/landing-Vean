@@ -12,7 +12,7 @@ const Contact = () => {
             <div className={style.contInfo}>
                 <img src={meme} alt='meme' className={style.img}/>
                 <div className={style.contMeta}>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatem dignissimos facilis modi, possimus doloremque quaerat eos, quod cupiditate adipisci consequatur cumque atque? Vero eum, officia assumenda provident illo debitis?</h5>
+                    <h5>Ayudanos a construir Vean con tus ideas. ¿Se te ocurren cosas? Escribinos.</h5>
                     <div className={style.contBtns}>
                         <button className={style.btnHome}>
                             <a href='https://telegram.me/user' target='_blank' className={style.aux}>
