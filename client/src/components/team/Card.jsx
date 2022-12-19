@@ -8,8 +8,9 @@ const Card = ({user}) => {
         <div className={style.contCard}>
             <Avatar alt={`${user.name}`} src={user.image} sx={{ width: 120, height: 120 }} />
             <div className={style.contInfo}>
-                <h3>{user.name}</h3>
+                <h3 className={style.name}>{user.name}</h3>
                 <h6>{user.position}</h6>
+                <h6>{user.rol}</h6>
                 <h6>{user.algo}</h6>
             </div>
             <div className={style.contSocial}>

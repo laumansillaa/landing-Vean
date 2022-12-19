@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import style from './styles/roadmap.module.css'
 import RoadmapMobile from './RoadmapMobile'
+import RoadMui from './RoadMui'
 
 const Roadmap = () => {
 
@@ -42,23 +43,28 @@ const Roadmap = () => {
                 <h1>ROADMAP</h1>
             </div>
 
+                {/* <RoadMui/> */}
+
             {
                 mobile? <RoadmapMobile/> :
 
                 <div className={style.contRoad}>
                     <div className={style.contLeft}>
-                    <div className={style.contCardRoad}>
+                        <div className={style.contCardRoad}>
                             <h5>Q4 - 2022</h5>
                             <h2>BIENVENIDA</h2>
                             <h6>Landing page informativa. Comunidad: Twitter + Telegram.
                                 Proyecto en FundIt. Whitepaper.
                             </h6>
                         </div>
+
                         <div className={style.contCardRoad}>
                             <h5>Q2 - 2023</h5>
                             <h2>EL CAMINO</h2>
-                            <h6>Primer marketplace. Pagos con criptomonedas y FIAT. Beta abierta de venta al público.</h6>
+                            <h6>Primer marketplace. Pagos con criptomonedas y FIAT. 
+                                Beta abierta de venta al público.</h6>
                         </div>
+
                         <div className={style.contCardRoad}>
                             <h5>Q4 - 2023</h5>
                             <h2>EL FUTURO</h2>
@@ -68,6 +74,7 @@ const Roadmap = () => {
                             </h6>
                         </div>
                     </div>
+
                     <div className={style.contRight}>
                         <div className={style.contCardRoadR}>
                             <h5>Q1 - 2023</h5>

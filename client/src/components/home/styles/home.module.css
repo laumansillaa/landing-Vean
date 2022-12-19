@@ -5,6 +5,7 @@
     justify-content: start;
     align-items: flex-end;
     padding: 0 0 3rem 7rem;
+    font-family: Poppins;
 }
 
 .contTxtHome{
@@ -16,12 +17,24 @@
     text-align: start;
 }
 
+.titleHome{
+    font-size: 4rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+
 .contDescriptionHome{
     margin-top: 1rem;
 }
 
 .contBtn{
     margin: 3rem 0 3rem 0;
+    display: flex;
+
+    gap: 20px;
+    /* border: 1px solid red; */
 }
 
 .btnHome{
@@ -29,6 +42,10 @@
     border: 0;
     padding: .6rem 1.5rem .6rem 1.5rem;
     border-radius: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btnHome:hover{
@@ -58,4 +75,6 @@
     .contTxtHome{
         width: 90%;
     }
+
+
 }

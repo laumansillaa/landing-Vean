@@ -60,6 +60,11 @@
     color: #fff;
 }
 
+
+.img{
+    height: 15rem;
+}
+
 @media (max-width: 480px){
     .contInfo{
         flex-direction: column;

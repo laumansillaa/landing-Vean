@@ -1,5 +1,6 @@
 import style from './styles/contact.module.css'
 import meme from '../../assets/images/meme.webp'
+import book from '../../assets/svg/book.svg'
 
 const Contact = () => {
 
@@ -10,9 +11,9 @@ const Contact = () => {
                 <h1>CONTACTO</h1>
             </div>
             <div className={style.contInfo}>
-                <img src={meme} alt='meme' className={style.img}/>
+                <img src={book} alt='meme' className={style.img}/>
                 <div className={style.contMeta}>
-                    <h5>Ayudanos a construir Vean con tus ideas. ¿Se te ocurren cosas? Escribinos.</h5>
+                    <h5>Ayudanos a construir Vean con tus ideas. ¿Se te ocurren cosas? Escribinos</h5>
                     <div className={style.contBtns}>
                         <button className={style.btnHome}>
                             <a href='https://telegram.me/user' target='_blank' className={style.aux}>

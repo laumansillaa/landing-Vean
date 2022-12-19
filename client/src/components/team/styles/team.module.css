@@ -38,13 +38,13 @@
 @media screen and (min-width:390px) and (max-width:649px){
 
     .contCard{
-        width: 90%;
-        /* flex-direction: column; */
-    
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
-            grid-template-rows: 1fr 1fr; 
-            gap: 0px 2px; 
+        width: 90%;    
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        align-items: center;
+        justify-content: center;
+        /* gap: 0px 2px;  */
     
 
     }

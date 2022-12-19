@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className={style.contHome} id='home'>
             <div className={style.contTxtHome}>
-                <h1>VEAN es</h1>
+                <h1 className={style.titleHome}>VEAN <h1>es</h1></h1>
                 <h4>Bienvenidos al futuro de la industria editorial</h4>
 
                 <div className={style.contDescriptionHome}>
@@ -20,6 +20,14 @@ const Home = () => {
                             className={style.aux}
                         >
                             Contactanos
+                        </a>
+                    </button>
+                    <button className={style.btnHome}>
+                        <a href='https://fundit.finance/projects/vean-3wlljg8a6'
+                            target="_blank"
+                            className={style.aux}
+                        >
+                            FundIt
                         </a>
                     </button>
                 </div>

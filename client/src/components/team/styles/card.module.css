@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 30%;
 }
 
 .contInfo{
@@ -11,6 +12,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
+    /* width: 30%; */
+    height: max-content;
+}
+
+.name{
+    font-size: 20px;
+    /* height: 50px; */
+    /* border: 1px solid yellow; */
 }
 
 .contSocial{
@@ -30,8 +40,21 @@
 @media screen and (min-width:480px) and (max-width:649px){
 
     .contCard{
+        
         margin-bottom: 2rem;
     }
 
+}
+
+
+@media screen and (max-width:479px){
+
+    .contCard{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        gap: 15px;
+    }
 
 }

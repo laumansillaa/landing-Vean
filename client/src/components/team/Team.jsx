@@ -33,9 +33,10 @@ const Team = () => {
     }
 
     const santi = {
-        name: 'Santiago Silva Dalla Rizza',
+        name: 'Santiago Silva D. Rizza',
         image: santiImg,
         position: 'Co-founder',
+        rol: 'Blockchain development advisor',
         username: '@Sansildev'
     }
 
@@ -47,7 +48,6 @@ const Team = () => {
             </div>
             <div className={style.contCard}>
                 <Card user={ari}/>
-                {/* <Card user={kari}/> */}
                 <Card user={lau}/>
                 <Card user={santi}/>
             </div>
