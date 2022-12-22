@@ -24,7 +24,7 @@ const Navv = () => {
                     />
                 </Link>
             </div>
-            <label for='menu' className={style.navLabel}>
+            <label htmlFor='menu' className={style.navLabel}>
                 <img src={menu} alt='menu-svg' className='navSvg' />
             </label>
             <input type='checkbox' id='menu' className={style.navInput}></input>

@@ -40,8 +40,9 @@
 @media screen and (min-width:480px) and (max-width:649px){
 
     .contCard{
-        
+        /* border: 1px solid yellow; */
         margin-bottom: 2rem;
+        width: 80%;
     }
 
 }

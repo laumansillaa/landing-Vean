@@ -64,3 +64,16 @@
         width: 90%;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width: 766px){
+    .contDescription{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contCardProyect{
+        width: 70%;
+    }
+}
