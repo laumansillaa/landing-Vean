@@ -1,0 +1,86 @@
+.contFuncionamiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: Space Mono;
+    margin-bottom: 15rem;
+    margin-top: 4rem;
+}
+
+.contTitle{
+    width: 80%;
+    border-bottom: 2px solid #fb2576;
+    color: #ddb9a5;
+}
+
+.contIt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+    /* border: 1px solid wheat; */
+    width: 80%;
+}
+
+.contItems{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+    /* border: 1px solid red; */
+    
+}
+
+
+.contCards{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.contCardOne{
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.contTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cardDescription{
+    width: 70%;
+    text-align: start;
+}
+
+.imgIcons{
+    height: 15rem;
+}
+
+.contCardTwo{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+}
+
+.contTextsTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contTextsTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cardDescriptionTwo{
+    width: 70%;
+    text-align: end;
+}

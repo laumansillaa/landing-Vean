@@ -1,80 +1,90 @@
-.contHome{
-    height: 85vh;
-    color: #fff;
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
-    padding: 0 0 3rem 7rem;
-    font-family: Poppins;
+.contHome {
+  height: 85vh;
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding: 0 0 3rem 7rem;
+  font-family: Poppins;
 }
 
-.contTxtHome{
-    /* border: 1px solid red; */
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    text-align: start;
+.contTxtHome {
+  /* border: 1px solid red; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
 }
 
-.titleHome{
-    font-size: 4rem;
-    display: flex;
-    align-items: flex-end;
-    gap: 10px;
-
+.titleHome {
+  font-size: 4rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
 }
 
-.contDescriptionHome{
-    margin-top: 1rem;
+.contDescriptionHome {
+  margin-top: 1rem;
 }
 
-.contBtn{
-    margin: 3rem 0 3rem 0;
-    display: flex;
+.contBtn {
+  margin: 3rem 0 3rem 0;
+  display: flex;
 
-    gap: 20px;
-    /* border: 1px solid red; */
+  gap: 20px;
+  /* border: 1px solid red; */
 }
 
-.btnHome{
-    background-color: #3F0071;
-    border: 0;
-    padding: .6rem 1.5rem .6rem 1.5rem;
-    border-radius: 20px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btnHome {
+  background-color: #3f0071;
+  border: 0;
+  padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+  border-radius: 20px;
+  /* width: -webkit-fill-available; */
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btnHome:hover{
-    background-color: #7000CC;
-    box-shadow: 1px 1px 2px 1px #000;
+.btnHome:hover {
+  background-color: #7000cc;
+  box-shadow: 1px 1px 2px 1px #000;
 }
 
-.aux{
-    text-decoration: none;
-    color: #fff;
+.aux {
+  text-decoration: none;
+  color: #fff;
 }
 
-.aux:hover{
-    color: #fff;
+.aux:hover {
+  color: #fff;
 }
 
-@media (max-width: 480px){
+.contImgHome {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .contHome{
-        height: 90vh;
-    }
+.homeBook {
+  height: 25rem;
+}
 
-    .contHome{
-        padding: 0 0 3rem 1.5rem;
-    }
+@media (max-width: 480px) {
+  .contHome {
+    height: 90vh;
+  }
 
-    .contTxtHome{
-        width: 90%;
-    }
+  .contHome {
+    padding: 0 0 3rem 1.5rem;
+  }
 
-
+  .contTxtHome {
+    width: 90%;
+  }
 }
