@@ -3,6 +3,8 @@ import ariImg from "../../assets/images/ari.jpg";
 import kariImg from "../../assets/images/kari.jpg";
 import lauImg from "../../assets/images/lau.jpg";
 import santiImg from "../../assets/images/santi.jpg";
+import gastonImg from '../../assets/images/gaston.jpg'
+import martiImg from '../../assets/images/marti.jpg'
 import Card from "./Card";
 
 import style from "./styles/team.module.css";
@@ -41,16 +43,16 @@ const Team = () => {
 
   const gaston = {
     name: "Gastón Solis",
-    image: lauImg,
+    image: gastonImg,
     rol: "Graphic Designer",
-    username: "@user",
+    username: "@Gritar",
   };
 
   const martina = {
     name: "Martina Mendoza",
-    image: lauImg,
+    image: martiImg,
     rol: "Project Manager",
-    username: "@user",
+    username: "@Unfarol",
   };
 
   return (

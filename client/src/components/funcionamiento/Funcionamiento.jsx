@@ -1,6 +1,6 @@
 import style from './styles/funcionamiento.module.css'
 import imgSvg from '../../assets/svg/homeBook.svg'
-import Gallery from '../home/CarouselHome';
+// import Gallery from '../home/CarouselHome';
 
 
 const Funcionamiento = () => {
@@ -11,17 +11,23 @@ const Funcionamiento = () => {
       </div>
       <div className={style.contIt}>
         <div className={style.contItems}>
-          <div>
-            1) Publicá tu ejemplar con nuestro formulario de ingreso.
+          <div className={style.contText}>
+            <h3>
+              1) Publicá tu ejemplar con nuestro formulario de ingreso.
+            </h3>
           </div>
-          <div>
-            2) Ponelo a la venta en nuestro marketplace.
+          <div className={style.contText}>
+            <h3>
+              2) Ponelo a la venta en nuestro marketplace.
+            </h3>
           </div>
-          <div>
-            3) Conseguí ingresos luego de cada compra.
+          <div className={style.contText}>
+            <h3>
+              3) Conseguí ingresos luego de cada compra.
+            </h3>
           </div>
         </div>
-        <Gallery/>
+        {/* <Gallery/> */}
       </div>
       
       {/* <div className={style.contCards}>

@@ -78,6 +78,20 @@
 @media (max-width: 480px) {
   .contHome {
     height: 90vh;
+    flex-direction: column;
+  }
+
+  .contImgHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 100%;
+  }
+
+  .homeBook{
+    width: 70%;
+    height: auto;
   }
 
   .contHome {
