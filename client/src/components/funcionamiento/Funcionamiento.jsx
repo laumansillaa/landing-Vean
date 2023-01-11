@@ -27,7 +27,7 @@ const Funcionamiento = () => {
             </h3>
           </div>
         </div>
-        {/* <Gallery/> */}
+        <Gallery/>
       </div>
       
       {/* <div className={style.contCards}>
