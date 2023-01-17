@@ -1,35 +1,28 @@
-import style from './styles/funcionamiento.module.css'
-import imgSvg from '../../assets/svg/homeBook.svg'
+import style from "./styles/funcionamiento.module.css";
+import imgSvg from "../../assets/svg/homeBook.svg";
 // import Gallery from '../home/CarouselHome';
-
 
 const Funcionamiento = () => {
   return (
-    <div className={style.contFuncionamiento} id='funcionamiento'>
+    <div className={style.contFuncionamiento} id="funcionamiento">
       <div className={style.contTitle}>
-          <h1>COMO FUNCIONA</h1>
+        <h1>COMO FUNCIONA</h1>
       </div>
       <div className={style.contIt}>
         <div className={style.contItems}>
           <div className={style.contText}>
-            <h3>
-              1) Publicá tu ejemplar con nuestro formulario de ingreso.
-            </h3>
+            <h3>1) Publicá tu ejemplar con nuestro formulario de ingreso.</h3>
           </div>
           <div className={style.contText}>
-            <h3>
-              2) Ponelo a la venta en nuestro marketplace.
-            </h3>
+            <h3>2) Ponelo a la venta en nuestro marketplace.</h3>
           </div>
           <div className={style.contText}>
-            <h3>
-              3) Conseguí ingresos luego de cada compra.
-            </h3>
+            <h3>3) Conseguí ingresos luego de cada compra.</h3>
           </div>
         </div>
-        <Gallery/>
+        {/* <Gallery /> */}
       </div>
-      
+
       {/* <div className={style.contCards}>
         <div>
           <div className={style.contCardOne}>
